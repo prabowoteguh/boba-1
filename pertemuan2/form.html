@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR FORM</title>
+    <style>
+        #username {
+            background-color: aqua;
+        }
+
+        table, th, td {
+  border: 1px solid;
+}
+    </style>
+</head>
+<body>
+    <!-- DIDALAM FORM WAJIB ADA ATRIBUT (ACTION, METHOD) 
+    ACTION => TUJUAN PENGIRIMAN DATA
+    METHOD => POST, GET
+    -->
+    <h1>BELAJAR FORM HTML</h1>
+    <form action="response.php" method="POST">
+        <!-- tag void element -->
+        <label for="username">Nama : </label>
+        <input name="username" type="text" id="username">
+
+        <br>
+        <br>
+
+        <label for="umur">Umur : </label>
+        <input name="umur" type="number" id="umur">
+
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input name="email" type="email" id="email">
+
+        <br>
+        <br>
+
+        <label for="password">Password : </label>
+        <input name="password" type="password" id="password">
+
+        <br><br>
+        <label for="">Jenis Kelamin : </label><br>
+        <input type="radio" id="laki" name="jeniskelamin"> <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jeniskelamin"> <label for="perempuan">Perempuan</label>
+
+        <br><br>
+        <label for="">Hobby : </label><br>
+        <input name="hobby" type="checkbox"> <label for=""> Mancing</label>
+        <input name="hobby" type="checkbox"> <label for=""> Berenang</label>
+        <input name="hobby" type="checkbox"> <label for=""> Ngoding</label>
+
+        <br><br>
+
+        <!-- dropdown -->
+        <label for="jurusan">Select</label>
+        <select name="jurusan" id="jurusan">
+            <option value="">Manajemen</option>
+            <option value="">SI</option>
+            <option value="">Kedokteran</option>
+        </select>
+
+        <br><br>
+
+        <label for="kecamatan">Select Group</label>
+        <select name="kecamatan" id="kecamatan">
+            <optgroup label="Kota Bandung">
+                <option value="">Cimahi</option>
+                <option value="">Sukaluyu</option>
+                <option value="">Antapani</option>
+            </optgroup>
+            <optgroup label="Kota Jakarta Selatan">
+                <option value="">Ragunan</option>
+                <option value="">Kuningan</option>
+                <option value="">Mampang</option>
+            </optgroup>
+        </select>
+
+        <input atribute="value" >
+
+        <br><br>
+
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="15" rows="2"></textarea>
+
+        <br><br>
+
+        <label for="search">Search</label>
+        <input type="text" name="search" id="search" list="list-search">
+        <datalist id="list-search">
+            <option value="default css setting"></option>
+            <option value="optgroup"></option>
+        </datalist>
+
+        <br><br><br>
+
+
+
+        <fieldset>
+            <legend>Data Login</legend>
+
+            <label for="username">username : </label>
+            <input name="username" type="text" id="username">
+
+            <br>
+            <br>
+
+            <label for="email">Email : </label>
+            <input name="email" type="email" id="email">
+
+            <br>
+            <br>
+
+            <label for="password">Password : </label>
+            <input name="password" type="password" id="password">
+        </fieldset>
+
+
+
+
+
+        <br><br><br>
+
+        <!-- type = submit / kirim data form -->
+        <button type="submit">Button submit</button>
+
+        <!-- type button -->
+        <button type="button">
+            <a href="https://www.instagram.com/">Instagram</a>
+        </button>
+        
+
+        <!-- type reset -->
+        <button type="reset">Ini button reset</button>
+
+        <br><br>
+        <br><br>
+        <br><br>
+    </form>
+
+
+    <style>
+        .table {
+            /* border: 1px solid #ddd; */
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        .table td, .table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .table thead th {
+            padding: 12px 0 12px 0;
+            text-align: center;
+            background-color: #000;
+            color: white;
+        }
+
+        .table-stripped tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table-hover tr:hover{
+            background-color: rgb(173, 173, 173);
+            cursor: pointer;
+        }
+    </style>
+
+    <table class="table table-hover table-stripped" summary="table testing">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>age</th>
+                <th>address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+            </tr>
+            <tr>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+            </tr>
+            <tr>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+            </tr>
+            <tr>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+                <td>123123</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br><br><br>
+
+    <table>
+        <tr>
+            <td colspan="2" rowspan="2">&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td colspan="2" rowspan="2">&nbsp</td>
+        </tr>
+        <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td colspan="2" rowspan="2">&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td colspan="2" rowspan="2">&nbsp</td>
+        </tr>
+        <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

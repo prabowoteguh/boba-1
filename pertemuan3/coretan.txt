@@ -1,0 +1,91 @@
+html mempunyai default css :
+
+2 kategori html
+- block tag 
+ 	- ada “enter” auto baris baru
+
+<h1>teguh</h1> <h1>teguh</h1>
+h1 - h6
+div
+p
+
+teguh
+teguh
+
+- inline tag
+
+<span></span>
+<strong>teguh</strong>
+<strong>teguh</strong>
+i
+u
+
+teguh teguh
+
+
+=== DIV ===
+karakteristik blok
+
+- class
+- id
+- name
+- style
+
+=== SPAN ===
+karakteristik inline
+
+
+!%$#*&{}><[]
+
+
+==== FORM ====
+
+didalam form ada attribut wajib :
+- name => untuk tanda pengenal yang bisa dibaca oleh server (backend)
+- id => untuk tanda pengenal didalam dokumen HTML (css dan js)
+
+
+username: teguh
+
+
+==== TABLE ====
+
+
+TABLE => HTML
+
+TABEL
+
+PADDING => JARAK DI DALAM KONTEN (CELL)
+SPACE => JARAK DI ANTARA GARIS
+
+TABLE COMPLEX => TUBUH MANUSIA
+
+- KEPALA (thead)
+- BADAN (tbody)
+
+- KAKI (tfoot)
+
+
+==== CSS ====
+
+
+1 file => 99999 line
+
+100 file :
+ 	- text formating
+	- grid
+	- dll
+
+100 file => minimize => 1 file => html
+
+
+
+
+
+
+
+
+
+
+
+

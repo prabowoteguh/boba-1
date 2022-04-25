@@ -1,0 +1,54 @@
+h6 {
+    font-size: 100px;
+}
+
+/* element selector */
+h2 {
+    color: blue;
+}
+
+h1 {
+    color: grey;
+}
+
+/* =========== */
+
+
+/* Class selector */
+
+.paragraph {
+    font-size: 20px;
+    color: brown;
+}
+
+/* ID SELECTOR */
+
+#username {
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 8px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: rgb(55, 67, 232);
+    color: #fff;
+    padding: 12px 0px 12px 0px; 
+}
+
+.table-stripped tr:nth-child(odd) {
+    background-color: rgb(232, 229, 229);
+}
