@@ -1,0 +1,87 @@
+BAHASA MESIN
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+BAHASA MANUSIA
+
+BAHASA PEMROGRAMAN : 2
+1. BAHASA BINER (C, C++, OBJ C)
+2. BAHASA TINGGI (HIGH LEVEL LANGUAGE)
+		- JS
+		- PHP
+		- PHYTON
+
+
+
+=============================
+VARIABLE (penampung sebuah nilai)
+
+- var - tidak direkomendasikan 
+- let => variable nya bisa diubah
+- const => gabisa diubah
+
+var nama_variable = value;
+
+============================
+TIPE DATA - JAVASCRIPT
+
+- NUMBER = semua angka (bil bulat, negatif)
+- STRING => ‘ atau “ (text atau angka atau simbol)
+- BOOLEAN => true dan false
+
+============================
+OPERATOR ARITMATIKA
+
+KuKaBaTaKu
+
+Ku = Kurung
+Ka = Kali
+Ba = Bagi
+Ta = Tambah
+Ku = Kurang
+
+
+( 1 - 5 * 2 + 10 )
+
+
+cara debug di js : 2
+- console
+- html
+
+$variable = 
+
+C
+
+var string nama = “teguh”
+
+
+
+
+JAVA 
+JAVASCRIPT
+
+======
+
+MEJA
+KEMEJA
+
+
+
+
+
+
+
+
+
+
+
+
