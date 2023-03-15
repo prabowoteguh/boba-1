@@ -1,0 +1,38 @@
+[
+    {
+        "boba1": [
+            {
+                "nama": "Dea",
+                "email": "dea@gmail.com",
+                "hobby": ["memasak", "listening"],
+                "bekerja": true,
+                "sallary": 6000000
+            },
+            {
+                "nama": "Beby",
+                "email": "beby@gmail.com",
+                "hobby": ["reading", "listening", "memasak"],
+                "bekerja": true,
+                "sallary": 6000000
+            }
+        ]
+    },
+    {
+        "boba2": [
+            {
+                "nama": "Hani",
+                "email": "Hani@gmail.com",
+                "hobby": ["coding", "hiking"],
+                "bekerja": false,
+                "sallay": 0
+            },
+            {
+                "nama": "Hana",
+                "email": "Hana@gmail.com",
+                "hobby": ["swimming", "singing"],
+                "bekerja": false,
+                "sallay": 0
+            }
+        ]
+    }
+]
